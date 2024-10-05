@@ -6,16 +6,16 @@ use aidoku::{
 	std::{String, Vec},
 	Chapter, Filter, Listing, Manga, MangaPageResult, Page,
 };
-use mangalib_template::template::{SocialLibSource, CDN};
+use hentailib_template::template::{SocialLibSource, CDN};
 
 static INSTANCE: SocialLibSource = SocialLibSource {
 	site_id: "1",
 	domain: "hentailib.me",
 	nsfw: &aidoku::MangaContentRating::Safe,
 	cdn: &CDN {
-		main: "https://img4.imgslib.link",
-		second: "https://img4.mixlib.me",
-		compress: "https://img33.imgslib.link",
+		main: "https://img3.imglib.info",
+		second: "https://img3.imglib.info",
+		compress: "https://img3.imglib.info",
 	},
 };
 
