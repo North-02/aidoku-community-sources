@@ -10,7 +10,7 @@ use mangalib_template::template::{SocialLibSource, CDN};
 
 static INSTANCE: SocialLibSource = SocialLibSource {
 	site_id: "1",
-	domain: "mangalib.me",
+	domain: "hentailib.me",
 	nsfw: &aidoku::MangaContentRating::Safe,
 	cdn: &CDN {
 		main: "https://img4.imgslib.link",
