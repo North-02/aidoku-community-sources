@@ -1,0 +1,15 @@
+{
+	"info": {
+		"id": "ru.henntailib",
+		"lang": "ru",
+		"name": "HentaiLib",
+		"version": 1,
+		"url": "https://hentailib.me",
+		"nsfw": 1
+	},
+	"listings": [
+		{
+			"name": "Сейчас читают"
+		}
+	]
+}
