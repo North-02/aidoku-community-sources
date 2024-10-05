@@ -6,7 +6,7 @@ use aidoku::{
 	std::{String, Vec},
 	Chapter, Filter, Listing, Manga, MangaPageResult, Page,
 };
-use hentailib_template::template::{SocialLibSource, CDN};
+use mangalib_template::template::{SocialLibSource, CDN};
 
 static INSTANCE: SocialLibSource = SocialLibSource {
 	site_id: "1",
