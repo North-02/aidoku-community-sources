@@ -8,4 +8,4 @@ crate-type = ["cdylib"]
 
 [dependencies]
 aidoku = { git = "https://github.com/Aidoku/aidoku-rs" }
-hentailib_template = { path = "../../template" }
+mangalib_template = { path = "../../template" }
